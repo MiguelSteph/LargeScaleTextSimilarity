@@ -27,6 +27,11 @@ import com.findsimilar.properties.ConstantProperties;
 
 import scala.Tuple2;
 
+/**
+ * This class use the LSH algorithm to find similar documents
+ * 
+ * @author KAKANAKOU Miguel Stephane (Skakanakou@gmail.com)
+ */
 public class FindTextSimilarity implements Serializable {
 
     private static final long serialVersionUID = 3671144356818113562L;
