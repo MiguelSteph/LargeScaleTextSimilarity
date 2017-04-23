@@ -14,4 +14,5 @@ public class ConstantProperties {
 
     public static final String DATA_AS_TOKENS_PATH = "/Users/MacBook/documents/Projects/OpenSourcesProjects/LargeScaleTextSimilarity/result/tokenFolder/";
     
+    public static final String RESULT_PATH = "/Users/MacBook/documents/Projects/OpenSourcesProjects/LargeScaleTextSimilarity/result/SimilarDocs";
 }

@@ -59,7 +59,7 @@ public class Hasher implements Serializable {
      *            String to hash
      * @return an integer that represent the hash value.
      */
-    public int djbHashing(String str) {
+    public static int djbHashing(String str) {
         long hash = 5381;
         for (int i = 0; i < str.length(); i++) {
             hash = ((hash << 5) + hash) + str.charAt(i);
