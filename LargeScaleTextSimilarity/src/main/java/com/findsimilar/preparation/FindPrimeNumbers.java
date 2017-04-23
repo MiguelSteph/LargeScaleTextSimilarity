@@ -50,7 +50,7 @@ public class FindPrimeNumbers {
 
                 for (int i = 3; i < 100000; i += 2) {
                     if (isPrime(i)) {
-                        System.out.println(i);
+//                        System.out.println(i);
                         primes.add(i);
                         bw.write("" + i);
                         bw.newLine();
